@@ -215,13 +215,13 @@ margin-top: -400px;
 
   .pro-info li {
     padding: 0 100PX;
-    margin-top: -21px;
+    margin-top: -56px;
   }
 
   .pro-info ul{
     text-align: center;
     font-weight: bolder;
-    line-height: 0;
+    line-height: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
