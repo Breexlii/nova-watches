@@ -1,0 +1,230 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100&display=swap');
+html{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 72, 1)) , color-stop(rgba(52, 33, 78, 1)) , to(rgba(84, 31, 79, 1)));
+    background-image: -o-linear-gradient(top, rgba(34, 34, 72, 1) , rgba(52, 33, 78, 1) , rgba(84, 31, 79, 1));
+    background-image: linear-gradient(to bottom, rgba(34, 34, 72, 1) , rgba(52, 33, 78, 1) , rgba(84, 31, 79, 1));
+    background-repeat: repeat-x;
+    background-size: 100%;
+    color: #fff;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.text{
+    margin-left: 55px;
+}
+
+h1{
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h6{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* THE BUY BUTTON*/
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 45px;
+  margin-left: 102px;
+}
+
+.buy-btn{
+font-weight: 600;
+font-size: 20px;
+color: #fff;
+background-color: #1e0f2e;
+padding: 10px 30px;
+border: none;
+border-radius: 50px;
+-webkit-transition : 468ms;
+-o-transition : 468ms;
+transition : 468ms;
+-webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+        transform: translateY(0);
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+cursor: pointer;
+}
+
+.explore{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #1E0F2E;
+    background-color: #D9D9D9;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    -webkit-transition : 468ms;
+    -o-transition : 468ms;
+    transition : 468ms;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    }
+
+/* THE WATCH IMAGE*/
+
+.watch{
+width: 400px;
+height: 400px;
+float: right;
+margin-top: -400px;
+}
+
+.menu-container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 20px;
+    z-index: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+     -ms-user-select: none;
+         user-select: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  .menu-logo {
+    line-height: 0;
+    margin: 0 35px;
+  }
+  
+  .menu-logo img {
+    max-height: 50px;
+    max-width: 50px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    
+  }
+  
+  .menu-container a {
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-container a:hover {
+    color: #00C6A7;
+  }
+  
+  .menu-container input {
+    display: block;
+    width: 35px;
+    height: 25px;
+    margin: 0;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+  }
+  
+  .menu li {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+
+  
+  /* desktop styles */
+  @media only screen and (min-width: 768px) { 
+    .menu-container {
+      width: 100%;
+    }
+  
+    .menu-container a {
+      color: #fff;
+    }
+  
+    .menu-container input {
+      display: none;
+    }
+  
+    /* Burger menu */
+    .menu-container span {
+      display: none;
+    }
+  
+    .menu {
+      position: relative;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    }
+  
+    .menu ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 0 ;
+      list-style: none;
+      margin-left: 500px;
+    }
+  
+    .menu li {
+      padding: 0 20px;
+      font-size: 22px;
+    }
+  }
+  .checked {
+    color: white;
+  }
+
+  .pro-info li {
+    padding: 0 100PX;
+    margin-top: -21px;
+  }
+
+  .pro-info ul{
+    text-align: center;
+    font-weight: bolder;
+    line-height: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-left: 700px;
+  }
